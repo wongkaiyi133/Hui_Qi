@@ -1,0 +1,131 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family: 'Barlow Condensed';
+}
+
+#navbar {
+	background-color: hsla(39,100%,95%,1.00);
+}
+
+.blankdiv1 {
+	padding: 20px 0px;
+}
+
+.myworkstext {
+	font-family: 'Source Sans Pro';
+	padding-left: 30px;
+	padding-right: 30px;
+	width: 60%;
+	height: auto;
+}
+
+@media (min-width:828px) and (max-width:978px) {
+	.myworkstext {
+	
+	width: 70%;
+			height: auto;
+}
+}
+
+@media (min-width:100px) and (max-width:828px) {
+	.myworkstext {
+	
+	width: 90%;
+			height: auto;
+		font-size:14px;
+}
+}
+
+@media (min-width:100px) and (max-width:686px) {
+	.typoposter {
+	
+	width: 100%;
+	height: auto;
+	
+}
+}
+
+@media (max-width:400px) {
+	.myworkstext {
+		padding: 10px;
+	}
+	
+	.typoposter {
+		padding: 0px;
+	}
+	
+	h3 {
+	
+		font-size: 7vw;
+	}
+}
+/*--------------my works--------------*/
+.myworkstitle {
+	padding: 20px;
+}
+
+.workstitle {
+	padding: 10px;
+}
+
+/*--.myworksbg {
+	background-color: #F4EFEC;
+}
+/*----------------footer1------------*/
+
+.footer1 {
+	background-color: #d7c7ba;
+	height: 100px;
+	font-size: 13px;
+	align-content: center;
+	padding-top: 15px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	
+}
+
+.footer .col ul {
+ 
+  margin: 10px;
+  padding: 10px;
+}
+.social ul li {
+  	display: inline-block;
+
+  padding-right: 10px !important;
+}
+
+.sociallogo ul li {
+	display: inline-block;
+  padding-right: 10px !important;
+	
+}
+
+.sociallogo {
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+
+@media (max-width:700px) {
+.footer1 {
+		font-size: 12px;
+}
+
+	.sociallogossmall {
+		height: 20px;
+		width:20px;
+	}
+}
+
+@media (max-width:501px) {
+.footer1 {
+		font-size: 10px;
+}
+
+	.sociallogossmall {
+		height: 13px;
+		width:13px;
+	}	
+}

@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+
+.contactbox {
+	padding: 50px;
+
+}
+
+.contacttext {
+	font-family: 'Source Sans Pro';
+	background-color:hsla(23,25%,94%,1.00);
+	padding: 20px;
+}
+
+
+@media (max-width:1145px) {
+	.contactbox {
+		
+	padding: 20px;
+	}
+}
+
+@media (max-width:400px) {
+	.contacttext {
+		font-size: 14px;
+	}
+	
+}
