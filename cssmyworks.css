@@ -13,6 +13,28 @@ body {
 	padding: 20px 0px;
 }
 
+/*-------typoposters------------*/
+.typoposterbg {
+	background-color:hsla(23,25%,94%,1.00);
+	width: 60%;
+}
+
+.typo1 {
+	padding: 5px 2.5px 5px 5px;
+}
+
+.typo2 {
+	padding: 5px 5px 5px  2.5px;
+}
+
+.typo3 {
+	padding: 0px 10px 5px 10px;
+}
+
+.typo4 {
+	padding: 5px 10px 10px 10px;
+}
+
 .myworkstext {
 	font-family: 'Source Sans Pro';
 	padding-left: 30px;
